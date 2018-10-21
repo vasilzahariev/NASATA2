@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Do you know?</title>
-    <link rel="stylesheet" href="design.css"></link>
-</head>
-<body>
-    <heder>
-        <img id="Logo" scr="imgs/logo.png">
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Game</a></li>
-                <li><a href="">Wiki</a></li>
-            </ul>
-        </div>
-        <center><h1>Heading 1</h1></center>
-    </heder>
-</body>
+    <head>
+        <title>Do you know?</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <heder class="siteHeader">
+            <img id="logo" src="imgs/logo.png" alt="Logo">
+            <div class="main_menu">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game/star.html">Game</a></li>
+                    <li><a href="wiki.html">Wiki</a></li>
+                </ul>
+            </div>
+        </heder>
+
+        <main class="siteMain">
+            <div class="homeDescription">
+                <h1 class="projectTitle">Do you know?</h1>
+                <p>"Do you know?" is a project with a goal to educate people from different age groups about the consequences of the Global Climate Changes on animals. </p>
+                <img src="imgs/polar-bear.jpg" alt="">
+            </div>
+
+            <div class="team">
+                <h1>Our team:</h1>
+                <ol>
+                    <li>Kamen Kanev</li>
+                    <li>Vasil Zahariev</li>
+                    <li>Bozhidar Goranov</li>
+                    <li>Kostantin Nikolov</li>
+                </ol>
+            </div>
+        </main>
+
+        <hr>
+        
+        <footer class="siteFooter">
+            <div class="footerPhotoLinks">
+                <ul>
+                    <li><a href="https://www.facebook.com/npmgwarriors/"><img src="imgs/facebook.png" alt=""></a></li>
+                    <li><a href="https://npmg.org/"><img src="imgs/npmg.png" alt=""></a></li>
+                    <li><a href="https://github.com/vasilzahariev/NASATA2"><img src="imgs/github.png" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKdFCrpaiRbJTe3EuPXDLbA?view_as=subscriber"><img id="youtube" src="imgs/youtube.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="footerMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game/start.html">Game</a></li>
+                    <li><a href="wiki.html">Wiki</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>

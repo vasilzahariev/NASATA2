@@ -1,0 +1,149 @@
+body {  
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+a, p, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.siteHeader {
+    display: inline-block;
+}
+
+#logo {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.main_menu {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    margin-left: 350px;
+    margin-bottom: 110px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: #39A0ED;
+    text-decoration: none;
+    font-size: 24pt;
+    padding: 10px;
+    transition: 0.5s all;
+}
+
+.menu li a:hover {
+    color:#061A40;
+    font-size: 34px;
+}
+
+.siteMain {
+    margin-bottom: 100px;
+}
+
+.siteMain .projectTitle {
+    font-size: 3em;
+    color: #00798C;
+}
+
+.siteMain .homeDescription {
+    display: inline-block;
+}
+
+.siteMain .homeDescription p {
+    height: 200px;
+    width: 400px;
+    font-size: 24px;
+    color: #4C6085;
+    float: left;
+    display: inline-block;
+}
+.siteMain .homeDescription img {
+    height: 300px;
+    width: 350px;
+    float: right;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.siteMain .team h1 {
+    font-size: 3em;
+    color: #00798C;
+}
+
+.siteMain .team ol li {
+    font-size: 24px;
+    color: #4C6085;
+}
+
+.siteFooter {
+    display: inline-block;
+}
+
+.siteFooter .footerPhotoLinks {
+    display: inline-block;
+}
+
+.siteFooter .footerPhotoLinks ul {
+    list-style-type: none;
+}
+
+.siteFooter .footerPhotoLinks ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.siteFooter .footerPhotoLinks ul li a img {
+    height: 90px;
+    width: 90px;
+    transition: 0.5s all;
+}
+
+.siteFooter .footerPhotoLinks ul li a #youtube {
+    height: 80px;
+    width: 100px;
+    transition: 0.5s all;
+}
+
+.siteFooter .footerPhotoLinks ul li a #youtube:hover {
+    height: 90px;
+    width: 120px;
+}
+
+.siteFooter .footerPhotoLinks ul li a img:hover {
+    height: 100px;
+    width: 100px;
+}
+
+.siteFooter .footerMenu {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.siteFooter .footerMenu ul {
+    list-style-type: none;
+}
+
+.siteFooter .footerMenu ul li {
+    padding-bottom: 5px;
+}
+
+.siteFooter .footerMenu ul li a {
+    text-decoration: none;
+    color: #01BAEF;
+    font-size: 20px;
+}
+
+.siteFooter .footerMenu ul li a:hover {
+    color: #061A40;
+}
