@@ -1,3 +1,7 @@
+* {
+    word-wrap: break-word;
+}
+
 body {  
     margin-left: 15%;
     margin-right: 15%;
