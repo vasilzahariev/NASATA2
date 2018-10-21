@@ -151,3 +151,15 @@ a, p, h1 {
 .siteFooter .footerMenu ul li a:hover {
     color: #061A40;
 }
+h1{
+    margin-top: -40px;
+    font-size: 50px;   
+}
+h3{
+    font-size: 30px;
+}
+select{
+    margin-left: -170pt;
+    margin-top: 10pt;
+    font-size: 25pt;
+}
